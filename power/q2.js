@@ -1,5 +1,5 @@
 const power = (base, exponent) => {
-    if(typeof base != 'number'||typeof exponent != 'number') return ('please enter number! :)')
+    if(typeof base != 'number'||typeof exponent != 'number') return ('please enter a number! :)')
     if (exponent !== 0) {
         return base * power(base, exponent - 1);
     } else {
